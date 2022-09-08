@@ -1,4 +1,7 @@
 export default {
+  exportdefault:{
+    target: 'static'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'code3',
@@ -13,7 +16,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
